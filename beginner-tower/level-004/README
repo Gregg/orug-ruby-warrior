@@ -1,0 +1,32 @@
+Level 4
+
+You can hear bow strings being stretched.
+
+Tip: No new abilities this time, but you must be careful not to rest while taking damage. Save a @health instance variable and compare it on each turn to see if you're taking damage.
+
+ -------
+|@ Sa S>|
+ -------
+
+  > = Stairs
+  @ = Gregg (20 HP)
+  S = Thick Sludge (24 HP)
+  a = Archer (7 HP)
+
+
+Available Abilities:
+
+  warrior.attack!
+    Attack the unit in given direction (forward by default).
+
+  warrior.walk!
+    Move in given direction (forward by default).
+
+  warrior.rest!
+    Gain 10% of max health back, but do nothing more.
+
+  warrior.feel
+    Returns a Space for the given direction (forward by default).
+
+  warrior.health
+    Returns an integer representing your health.
